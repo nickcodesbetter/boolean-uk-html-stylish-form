@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body class="center grad">
+    <main class="outer-container">
+    <header>
+    <h1 class="box text-center">Say Hello!</h1>
+    </header>
+    <form>
+      
+      <label class="box font-small"
+        >Your name
+        <input class="font-medium" type="text" name="name" value="" placeholder="Enter your name" />
+      </label>
+      <hr>
+
+      
+      <label class="box font-small"
+        >Email
+        <input  class="font-medium"
+          type="email"
+          name="email"
+          value=""
+          placeholder="Enter your email address"
+        />
+      </label>
+
+      <hr>
+
+      <label class="box font-small"
+        >Needed Services
+        <select class="font-medium-bold" name="services">
+          <option value="cho">Choose Services</option>
+          <option value="cle">Cleaning</option>
+          <option value="bui">Building</option>
+          <option value="gar">Gardening</option>
+        </select>
+      </label>
+     
+<hr>
+
+      <label class="box font-small"
+        >Budget
+        <select class="font-medium-bold" name="budget">
+          <option value="Sel">Select Budget</option>
+          <option value="1">100</option>
+          <option value="10">1000</option>
+          <option value="100">10000</option>
+        </select>
+      </label>
+
+ <hr>
+
+      <label class="box font-small"
+        >Message
+        <textarea class="font-medium" 
+          type="text"
+          name="name"
+          value=""
+          placeholder="Your message here...">
+       Your message here...
+      </textarea>
+ </form>
+<hr>
+     <button class="grad-button">Submit  &rarr;</button>
+    
+  </main>
+  </body>
+</html>
